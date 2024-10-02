@@ -1,0 +1,53 @@
+.board{
+    min-width: 300px;
+    display: block;
+    flex-direction: column;
+    gap: 20px;
+    max-height: 100%;
+}
+
+.board_top{
+    padding-left: 10px;;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.board_top_title{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    
+}
+
+.board_top_title span{
+    margin-left: 15px;
+    color: #6b6f76;
+}
+
+.board_top svg{
+    height: max-content;
+    width: max-content;
+    padding: 2px;
+    color: #6b6f76;
+}
+
+.board_cards{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border-bottom: 10px;
+}
+
+.icon1{
+    filter: invert(24%) sepia(98%) saturate(6398%) hue-rotate(356deg) brightness(92%) contrast(121%);
+}
+
+.icon2, .icon4, .icon13, .icon14, .icon15{
+    filter: invert(0.4) sepia(1) saturate(20) hue-rotate(194.4deg) brightness(0.5) !important;
+}
+.icon3, .icon12{
+    filter: invert(61%) sepia(49%) saturate(2174%) hue-rotate(2deg) brightness(107%) contrast(103%);
+}
